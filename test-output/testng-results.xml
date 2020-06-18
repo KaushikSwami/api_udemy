@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1279" started-at="2020-06-18T17:18:11 IST" finished-at="2020-06-18T17:18:13 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1279" started-at="2020-06-18T17:18:11 IST" finished-at="2020-06-18T17:18:13 IST">
+      <class name="chaining.EditPlace">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:chaining.EditPlace@57855c9a]" name="initialize" is-config="true" duration-ms="395" started-at="2020-06-18T17:18:11 IST" finished-at="2020-06-18T17:18:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="edit_place()[pri:0, instance:chaining.EditPlace@57855c9a]" name="edit_place" duration-ms="1261" started-at="2020-06-18T17:18:11 IST" finished-at="2020-06-18T17:18:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edit_place -->
+      </class> <!-- chaining.EditPlace -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
