@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1279" started-at="2020-06-18T17:18:11 IST" finished-at="2020-06-18T17:18:13 IST">
+  <suite name="Default suite" duration-ms="2207" started-at="2020-07-07T21:26:36 IST" finished-at="2020-07-07T21:26:38 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1279" started-at="2020-06-18T17:18:11 IST" finished-at="2020-06-18T17:18:13 IST">
-      <class name="chaining.EditPlace">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:chaining.EditPlace@57855c9a]" name="initialize" is-config="true" duration-ms="395" started-at="2020-06-18T17:18:11 IST" finished-at="2020-06-18T17:18:11 IST">
+    <test name="Default test" duration-ms="2207" started-at="2020-07-07T21:26:36 IST" finished-at="2020-07-07T21:26:38 IST">
+      <class name="jira.Jira">
+        <test-method status="PASS" signature="test()[pri:0, instance:jira.Jira@3cef309d]" name="test" duration-ms="2180" started-at="2020-07-07T21:26:36 IST" finished-at="2020-07-07T21:26:38 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="edit_place()[pri:0, instance:chaining.EditPlace@57855c9a]" name="edit_place" duration-ms="1261" started-at="2020-06-18T17:18:11 IST" finished-at="2020-06-18T17:18:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edit_place -->
-      </class> <!-- chaining.EditPlace -->
+        </test-method> <!-- test -->
+      </class> <!-- jira.Jira -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

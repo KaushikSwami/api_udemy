@@ -23,12 +23,11 @@ public class Payload extends BaseRequest{
 	
 	public static String put_place()
 	{
-		return "{\r\n" + 
-				"\"place_id\":\""+place_id+"\",\r\n" + 
-				"\"address\":\"abc\",\r\n" + 
-				"\"key\":\"qaclick123\"\r\n" + 
-				"}\r\n" + 
-				"";
+		return "{\\r\\n\" + \r\n" + 
+				"				\"\\\"place_id\\\":\\\"\"+placeId+\"\\\",\\r\\n\" + \r\n" + 
+				"				\"\\\"address\\\":\\\"\"+newAddress+\"\\\",\\r\\n\" + \r\n" + 
+				"				\"\\\"key\\\":\\\"qaclick123\\\"\\r\\n\" + \r\n" + 
+				"				\"}";
 	}
 
 }

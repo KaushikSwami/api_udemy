@@ -50,9 +50,9 @@ public class Add_Place {
 	String place_id = js.get("place_id");
 	System.out.println("the place id is : " + place_id );
 	
-	Response put_response = RestAssured.given().log().all().queryParams(parameters).accept(ContentType.JSON)
-			.body(Payload.put_place())
-	.when().put("/maps/api/place/update/json");
+	Response put_response = RestAssured.given().log().all().queryParams(parameters).accept(ContentType.JSON).body(chaining.Payload.put_place())
+			.when().put("maps/api/place/update/json");
+			
 	
 	JsonPath js_1=put_response.jsonPath();
 	String message_address = js_1.get("msg");
